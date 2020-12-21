@@ -1,5 +1,6 @@
 module Main exposing (..)
 
+import Browser
 import Html exposing (..)
 import Html.Events exposing (onClick)
 import Html.Attributes exposing (..)
@@ -8,7 +9,7 @@ import Json.Decode as Decode
 
 
 main =
-    Html.program
+    Browser.element
         { init = init
         , view = view
         , update = update
