@@ -1,4 +1,4 @@
-module ShoppingCart exposing (..)
+module Main exposing (..)
 
 import Html exposing (..)
 import Html.Events exposing (onClick)
